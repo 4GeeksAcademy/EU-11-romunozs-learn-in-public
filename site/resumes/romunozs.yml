@@ -1,0 +1,178 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Rodrigo 
+    last_name: Munoz
+    
+    # Define yourself in 4-5 words
+    motto: I always do my homework
+    # focus
+    focus: Hacking the world
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I've work on a lot of things, some very interesting and some not that much. Right now I'm working as a cybersecurity engineer and I like every second of it. I'm trying to be better every day and learn new things.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: ../static/profile-pic.png
+
+    # Contact Information
+    email: romunozs@gmail.com #optional
+    phone: 6119245000 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/rodrigomunozscannone/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: romunozs
+    
+    twitter: 'romunozs' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Italian
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+      
+      - idiom: French
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Photography
+
+      - item: Cinema
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Degree in Law
+      university: Central University of Venezuela
+      # optional
+      university_logo: http://www.ucv.ve/fileadmin/templates/core/img/ucv.png
+      time: 2012 - 2016
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+
+    - degree: BSc in Political Sciences
+      university: University of Turin
+      # optional
+      university_logo: https://www.unito.it/sites/all/themes/bsunito/img/logo_new_2022.svg
+      time: 2007 - 2011
+      details: |
+        During my undergraduate studies in Political Sciences, I gained a comprehensive understanding 
+        of political systems, theories, and processes. The program delved into various aspects of politics, 
+        including political theory, comparative politics, international relations, public policy, and 
+        political economy. Through engaging coursework and research projects, I developed strong analytical 
+        and critical thinking skills, allowing me to analyze and interpret complex political events and trends. 
+        This degree has equipped me with a solid foundation in political sciences, providing me with valuable insights into governance, policy-making, and the intricacies of domestic and global politics.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: EDR Analyst
+      time: 2021 - Present
+      company: Getronics, Madrid
+      # optional
+      company_logo: https://www.getronics.com/
+      details: |
+        As an EDR (Endpoint Detection and Response) Analyst, I protect and secure systems from cyber threats. 
+        I monitor security events in real-time using advanced tools. I investigate incidents, analyze endpoint data, 
+        and determine the scope of breaches. I collaborate with cross-functional teams to respond and mitigate incidents. 
+        I proactively monitor endpoints for vulnerabilities and emerging threats. I stay updated on cybersecurity 
+        trends and develop strategies for detection and prevention. I communicate findings to stakeholders, enabling 
+        informed decision-making. Overall, I play a crucial role in safeguarding endpoint security and ensuring data 
+        integrity.
+
+
+    - role: Cybersecurity Engineer
+      time: 2020 - 2021
+      company: Metafrase Cybersecurity, Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As a Cybersecurity Engineer, I implement robust security measures for critical systems. I design and deploy 
+        firewalls, IDS, and encryption protocols. I conduct vulnerability assessments and forensic investigations. 
+        I collaborate with teams to develop policies and ensure compliance. I monitor network traffic and security 
+        alerts proactively. I stay updated on emerging threats and technologies. I contribute to incident response and 
+        risk assessments to maintain strong security.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
