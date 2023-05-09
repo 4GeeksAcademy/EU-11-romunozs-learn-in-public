@@ -124,35 +124,35 @@ projects:
     to do some more amazing projects to update this repo.
 
   assignments:
-    - title: Velocity
+    - title: Excuse Generator
       # optional
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      link: "https://github.com/romunozs/bootstrap-ig"
+      tagline: "This is a simple javascript code to generate an excuse every time the website is loaded."
 
-    - title: DevStudio
+    - title: Bootstrap IG Photo Feed
       # optional
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: "A responsive website template designed to help web developers/designers market their services."
+      link: "https://github.com/romunozs/bootstrap-ig"
+      tagline: "A responsive website designed with bootstrap, replicating the Instagram, single post and multi image feed."
 
-    - title: Tempo
+    - title: IG Post Project.
       # optional
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      link: "https://github.com/romunozs/ig-post-project"
+      tagline: "Instagram is one of the most popular user interfaces in the world, this is the first of three exercises that will make you replicate the most important and difficult parts of Instagram.com"
 
-    - title: Atom
+    - title: Postcard
       # optional
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      link: "https://github.com/romunozs/4Geeks"
+      tagline: "Who does not like postcards? This is one of your first exercises (if not the first) and it's fun and relatively easy"
 
-    - title: Delta
+    - title: HTML Hello
       # optional
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      link: "https://github.com/romunozs/html_hello"
+      tagline: "The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch"
 
 skills:
   toolset:
